@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.profile{
+    background: url('/images/image1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.layout{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.profile-info{
+    position: relative;
+    z-index: 1;
+    padding-top: 145px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.photo{
+    width: 115px;
+    height: 115px;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.profile-info-title{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.profile-indo-major{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.info-contact-item{
+   
+    height: 147px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+.info-contact-item >span{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.btn-save{
+background-color: rgba(74, 58, 255, 1);
+height: 61px;
+border-radius: 66px;
+padding: 20px 37px;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #fff;
+font-weight: 700;
+font-size: 18px;
+}
