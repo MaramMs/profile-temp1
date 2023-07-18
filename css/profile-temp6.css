@@ -34,6 +34,7 @@
   
     .profile-info{
         padding-top: 70px;
+        padding-bottom: 15px;
       display: flex;
       gap:22px;
       flex-direction: column;
