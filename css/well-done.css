@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile {
+  background-color: rgba(24, 24, 24, 1);
+  height: 100vh;
+
+}
+.profile-info {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.well-done {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+.well-done .title {
+  font-weight: 700;
+  font-size: 26px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.desc {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.date-time {
+  display: flex;
+  width: 100%;
+  height: 46px;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+.date,
+.time {
+  display: flex;
+  flex-direction: column;
+}
+.date > span:first-child,
+.time > span:first-child {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.date > span:nth-child(2),
+.time > span:nth-child(2) {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.email-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  
+}
+.email-input > label {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  font-weight: 400;
+}
+.email-input > input {
+  background-color: rgba(29, 29, 29, 1);
+  padding: 12px 37px;
+  border-radius: 100px;
+  height: 43px;
+  border: none;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.email-input > input:focus {
+  outline: none;
+  border: none;
+}
+
+.notify-skip {
+  display: flex;
+  justify-content: space-between;
+}
+.notify {
+  background-color: rgba(254, 215, 0, 1);
+  padding: 12px 37px;
+  height: 45px;
+  color: rgba(13, 13, 13, 1);
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 100px;
+  width: 286px;
+}
+
+.skip{
+    width: 76px;
+    height: 45px;
+    border-radius: 100px;
+    background-color: rgba(29, 29, 29, 1);
+    color: rgba(172, 172, 172, 1);
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+}
