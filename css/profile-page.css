@@ -6,8 +6,6 @@
     display: flex;
     gap:22px;
     padding-top: 48px;
-    /* justify-content: center;
-    align-items: center; */
     flex-direction: column;
 }
 
