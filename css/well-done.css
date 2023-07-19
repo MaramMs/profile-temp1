@@ -11,6 +11,8 @@
 }
 .profile-info {
     height: 100vh;
+    position: relative;
+    /* padding:0px 16px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,6 +102,8 @@
 .notify-skip {
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  bottom: 10px;
 }
 .notify {
   background-color: rgba(254, 215, 0, 1);
