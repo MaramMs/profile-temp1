@@ -6,8 +6,8 @@
 
 .portfolio{
     background-color: rgba(24, 24, 24, 1);
-    height: 100vh;
-    overflow: hidden;
+    /* height: 100vh;
+    overflow: hidden; */
 }
 .container{
     padding: 50px 16px;
