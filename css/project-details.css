@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.project{
+    background-color: rgba(24, 24, 24, 1);
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.container{
+    padding: 50px 16px;
+}
+.project-info{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+   
+}
+.project-nav{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.arrow{
+    background-color: rgba(14, 14, 14, 1);
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 8px;
+
+}
+.project-nav h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30.52px;
+}
+
+.carouselExampleIndicators{
+    border-radius: 16px;
+    height: 245px;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 6px;
+    height: 6px;
+    border-radius: 100px;
+    background-color: rgba(57, 57, 57, 1);
+}
+.carousel-indicators .active {
+background-color: rgba(254, 215, 0, 1);
+}
+
+.carousel-indicators{
+    gap: 4px;
+}
+
+.project-desc{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
+.project-items{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.project-images{
+    display: flex;
+    height: 185px;
+    justify-content: space-between;
+}
+.project-item-desc
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.call-msg{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 8px;
+    gap: 8px;
+}
+.call{
+    height: 45px;
+    width: 181px;
+    border-radius: 100px;
+    padding: 12px 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: rgba(13, 13, 13, 1);
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgba(254, 215, 0, 1);
+}
+.msg{
+    background: rgba(24, 24, 24, 1);
+    width: 181px;
+    height: 45px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid rgba(24, 24, 24, 1);
+}
