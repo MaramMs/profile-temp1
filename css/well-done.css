@@ -7,18 +7,15 @@
 .profile {
   background-color: rgba(24, 24, 24, 1);
   height: 100vh;
-
 }
 .profile-info {
-    height: 100vh;
-    position: relative;
-    /* padding:0px 16px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 40px;
-    
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .well-done {
@@ -75,7 +72,6 @@
   align-items: center;
   gap: 8px;
   width: 100%;
-  
 }
 .email-input > label {
   color: rgba(255, 255, 255, 1);
@@ -121,13 +117,13 @@
   width: 286px;
 }
 
-.skip{
-    width: 76px;
-    height: 45px;
-    border-radius: 100px;
-    background-color: rgba(29, 29, 29, 1);
-    color: rgba(172, 172, 172, 1);
-    font-weight: 400;
-    font-size: 16px;
-    border: none;
+.skip {
+  width: 76px;
+  height: 45px;
+  border-radius: 100px;
+  background-color: rgba(29, 29, 29, 1);
+  color: rgba(172, 172, 172, 1);
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
 }
