@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.profile {
+  background: url("/images/image3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 31px 16px;
+}
+
+
+.profile-info {
+  padding: 31px 16px;
+ 
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
+  );
+
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.info-contact-item {
+    border-radius: 20px;
+  height: 107px;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-contact-item > span{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.profile-info-title {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 51.66px;
+word-wrap: break-word;
+width: 204px;
+}
+
+.profile-bio {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #fff;
+}
+
+
+.btn-save{
+    background-color: rgba(254, 215, 0, 1);
+    padding: 12px 37px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    border: none;
+    color: rgba(13, 13, 13, 1);
+    font-size: 18px;
+line-height: 21.13px;
+font-weight: 700;
+}
