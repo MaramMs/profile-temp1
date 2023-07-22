@@ -72,9 +72,15 @@ span.flatpickr-weekday{
   font-weight: 400;
 }
 .flatpickr-current-month{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color:#fff;
   font-size: 24px;
   font-weight: 700;
+}
+.flatpickr-current-month .flatpickr-monthDropdown-months {
+  width: 100px !important;
 }
 .flatpickr-day{
   border-radius: 100px;
