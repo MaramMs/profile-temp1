@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.meeting {
+  background-color: rgba(24, 24, 24, 1);
+
+}
+.meeting-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 0px;
+
+}
+.meeting-nav {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.hidden-input {
+    display: none;
+}
+
+.flatpickr-calendar{
+background:transparent !important;
+width: 100% !important;
+box-shadow: none !important;
+}
+
+.flatpickr-time{
+    display: none !important;
+}
+.flatpickr-days{
+    width: 100% !important;
+    max-width: 100% !important;
+    gap: 8px;
+}
+.bootstrap-datetimepicker-widget {
+	width: 100% !important;
+	max-width: none !important;
+} 
+.flatpickr-months .flatpickr-prev-month, .flatpickr-months .flatpickr-next-month{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+  border: 1.5px solid #fff;
+  color: #fff;
+  position: relative;
+}
+
+.flatpickr-months .flatpickr-prev-month svg, .flatpickr-months .flatpickr-next-month svg{
+fill: #fff;
+}
+span.flatpickr-weekday{
+  color: #fff ;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  line-height: 16.44px;
+}
+
+
+.flatpickr-day.prevMonthDay{
+  font-size: 18px;
+  color:#ffffff52;
+  font-weight: 400;
+}
+.flatpickr-current-month{
+  color:#fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.flatpickr-day{
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: rgba(29, 29, 29, 1);
+}
+
+.flatpickr-day.today{
+  background-color: rgba(74, 58, 255, 1);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+}
+.arrow {
+  background-color: rgba(14, 14, 14, 1);
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px;
+}
+.meeting-nav h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30.52px;
+}
+.pick-time {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.time-title {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.am,
+.pm {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.am > span,
+.pm > span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.time-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.time-item {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(236, 235, 255, 1);
+  border-radius: 100px;
+  height: 40px;
+  padding: 12px 22px;
+}
+.time-item.active {
+  background-color: rgba(74, 58, 255, 1);
+  color: #fff;
+}
+.book-now {
+  background-color: rgba(254, 215, 0, 1);
+  padding: 12px 37px;
+  height: 45px;
+  border-radius: 100px;
+  /* position: absolute;
+  bottom: 10px; */
+  width: 100%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(13, 13, 13, 1);
+  font-size: 18px;
+  font-weight: 700;
+}
