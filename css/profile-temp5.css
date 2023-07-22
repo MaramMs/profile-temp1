@@ -3,7 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body{
+  font-family: 'Raleway', sans-serif;
+}
 .cover {
   background: url("/images/cover2.png") no-repeat;
   height: 217px;

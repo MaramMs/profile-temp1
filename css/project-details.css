@@ -3,7 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body{
+  font-family: 'Raleway', sans-serif;
+}
 .project {
   background-color: rgba(24, 24, 24, 1);
 
