@@ -180,3 +180,8 @@
   border: none;
   box-shadow: none;
   }
+
+
+  @media screen and (device-width: 720px) and (device-height: 1560px) {
+    /* styles for Samsung A20s go here */
+}
